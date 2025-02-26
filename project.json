@@ -1,0 +1,17 @@
+{
+  "name": "default",
+  "targets": {
+    "serve": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "node index.js"
+      }
+    },
+    "build": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "mkdir -p dist && cp index.js dist/"
+      }
+    }
+  }
+}

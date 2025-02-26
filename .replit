@@ -1,17 +1,28 @@
-entrypoint = "index.js"
+# Main configuration
 modules = ["nodejs-20"]
-hidden = [".config", "package-lock.json"]
+hidden = [".config", "package-lock.json", "node_modules", ".nx", "dist"]
 
+# For development
+run = "npx nx serve my-monorepo"
+
+# GitHub import settings
 [gitHubImport]
-requiredFiles = [".replit", "replit.nix", "package.json", "package-lock.json"]
+requiredFiles = [".replit", "replit.nix", "package.json", "nx.json"]
 
+# Nix environment
 [nix]
 channel = "stable-24_05"
 
+# Unit testing
 [unitTest]
 language = "nodejs"
 
+# Deployment configuration
 [deployment]
-run = ["node", "index.js"]
+run = [
+  "sh",
+  "-c",
+  "npx nx build my-monorepo --prod && node dist/apps/YOUR_MAIN_APP/main.js",
+]
 deploymentTarget = "cloudrun"
 ignorePorts = false
