@@ -1,0 +1,89 @@
+{
+  "version": "6.0",
+  "nxVersion": "20.4.6",
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "pluginsConfig": {
+    "@nx/js": {
+      "analyzeSourceFiles": false
+    }
+  },
+  "fileMap": {
+    "projectFileMap": {
+      "default": [
+        {
+          "file": ".gitignore",
+          "hash": "7792195715710126955"
+        },
+        {
+          "file": ".replit",
+          "hash": "13143838510000705038"
+        },
+        {
+          "file": ".upm/store.json",
+          "hash": "16629975726224507257"
+        },
+        {
+          "file": "generated-icon.png",
+          "hash": "13514433118850441124"
+        },
+        {
+          "file": "index.js",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "my-monorepo/.editorconfig",
+          "hash": "5443105041930014821"
+        },
+        {
+          "file": "my-monorepo/.gitignore",
+          "hash": "12474917728722778441"
+        },
+        {
+          "file": "my-monorepo/.vscode/extensions.json",
+          "hash": "3833545590435012078"
+        },
+        {
+          "file": "my-monorepo/README.md",
+          "hash": "8946281397543615839"
+        },
+        {
+          "file": "my-monorepo/nx.json",
+          "hash": "2777144930736730810"
+        },
+        {
+          "file": "my-monorepo/package-lock.json",
+          "hash": "13505983453326367749"
+        },
+        {
+          "file": "my-monorepo/package.json",
+          "hash": "6896742073209089079"
+        },
+        {
+          "file": "nx.json",
+          "hash": "440752946970813540"
+        },
+        {
+          "file": "package-lock.json",
+          "hash": "17611919345173251971"
+        },
+        {
+          "file": "package.json",
+          "hash": "415204979475799740",
+          "deps": [
+            "npm:@types/node"
+          ]
+        },
+        {
+          "file": "project.json",
+          "hash": "6841942339692932880"
+        },
+        {
+          "file": "replit.nix",
+          "hash": "5603065287874671408"
+        }
+      ]
+    },
+    "nonProjectFiles": []
+  }
+}
