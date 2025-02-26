@@ -19,5 +19,6 @@
     }
   },
   "defaultProject": "default",
-  "$schema": "./node_modules/nx/schemas/nx-schema.json"
+  "$schema": "./node_modules/nx/schemas/nx-schema.json",
+  "nxCloudId": "67bed54e05f2a360ccfc5c28"
 }
